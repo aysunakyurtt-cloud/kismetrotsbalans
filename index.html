@@ -4,93 +4,139 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kısmet Rot Balans</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f5f5f5;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
     }
+
     header {
-      background-color: #1e2a38;
+      background: #0b3d91;
       color: white;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
     }
+
     nav {
-      background-color: #2f3e50;
+      background: #082a66;
       padding: 10px;
       text-align: center;
     }
+
     nav a {
       color: white;
       margin: 0 15px;
       text-decoration: none;
       font-weight: bold;
     }
-    .container {
-      padding: 20px;
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
     }
+
+    .hero h1 {
+      color: #0b3d91;
+      font-size: 36px;
+    }
+
+    .hero p {
+      font-size: 18px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
     .card {
-      background-color: white;
+      background: white;
       padding: 20px;
-      margin-bottom: 20px;
+      margin: 10px auto;
+      max-width: 500px;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
+
     footer {
-      background-color: #1e2a38;
+      background: #0b3d91;
       color: white;
       text-align: center;
-      padding: 15px;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: green;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 10px;
     }
   </style>
 </head>
+
 <body>
 
-<header>
-  <h1>Kısmet Rot Balans</h1>
-  <p>Güvenli Sürüşün Adresi</p>
-</header>
+  <header>
+    <h1>Kısmet Rot Balans</h1>
+    <p>Güvenli sürüş için profesyonel hizmet</p>
+  </header>
 
-<nav>
-  <a href="#">Ana Sayfa</a>
-  <a href="#hizmetler">Hizmetler</a>
-  <a href="#hakkimizda">Hakkımızda</a>
-  <a href="#iletisim">İletişim</a>
-</nav>
+  <nav>
+    <a href="#">Ana Sayfa</a>
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
 
-<div class="container">
+  <div class="hero">
+    <h1>Aracınız Emin Ellerde</h1>
+    <p>Rot balans, lastik ve bakım hizmetleri</p>
+    <a class="btn" href="#iletisim">Bize Ulaş</a>
+  </div>
 
-  <div class="card" id="hizmetler">
+  <div id="hizmetler" class="section">
     <h2>Hizmetlerimiz</h2>
-    <ul>
-      <li>Rot Ayarı</li>
-      <li>Balans Ayarı</li>
-      <li>Lastik Değişimi</li>
-      <li>Yağ ve Filtre Bakımı</li>
-    </ul>
+
+    <div class="card">
+      <h3>Rot Ayarı</h3>
+      <p>Direksiyon hassasiyeti ve güvenli sürüş.</p>
+    </div>
+
+    <div class="card">
+      <h3>Balans Ayarı</h3>
+      <p>Titreşimsiz ve konforlu sürüş.</p>
+    </div>
+
+    <div class="card">
+      <h3>Lastik Hizmeti</h3>
+      <p>Lastik değişimi ve kontrol.</p>
+    </div>
   </div>
 
-  <div class="card" id="hakkimizda">
-    <h2>Hakkımızda</h2>
-    <p>Kısmet Rot Balans olarak yıllardır araç bakım ve onarım hizmeti sunuyoruz. Müşteri memnuniyeti bizim için önceliklidir.</p>
-  </div>
-
-  <div class="card" id="iletisim">
+  <div id="iletisim" class="section">
     <h2>İletişim</h2>
-    <p>Telefon: 0531 972 45 08</p>
-    <p>Adres: İstanbul / Türkiye</p>
-    <p>Email: aykutakyurt2@gmail.com</p>
+
+    <div class="card">
+      <p>📍 İstanbul</p>
+      <p>📞 0531 XXX XX XX</p>
+      <p>✉️ kismetrotsbalans@gmail.com</p>
+
+      <a class="btn" href="https://wa.me/90531XXXXXXX" target="_blank">
+        WhatsApp’tan Yaz
+      </a>
+    </div>
   </div>
 
-</div>
-
-<footer>
-  <p>© 2026 Kısmet Rot Balans</p>
-</footer>
+  <footer>
+    <p>© 2026 Kısmet Rot Balans - Tüm hakları saklıdır</p>
+  </footer>
 
 </body>
 </html>
